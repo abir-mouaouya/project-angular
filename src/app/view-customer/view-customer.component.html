@@ -1,0 +1,15 @@
+<div class="justify-center text-center relative p-3">
+    <input type="search" class="border rounded-md shadow w-1/2  p-2" placeholder="Search"   (input)="onQuery($event)">
+    <select class="border rounded-md shadow mr-4  p-2" [(ngModel)]="filterVal">
+        <option value="Male"> Male</option>
+        <option value="Female"> Female</option>
+    </select>
+    <button (click)="filter()"><i class="bi bi-search"></i>
+    </button>
+    </div>
+    <div class="flex flex-col gap-6 p-6 bottom-3 top-3">
+    <div class="grid grid-cols-3 gap-7 md:grid-cols-4 xl:grid-cols-5">
+        <app-card  *ngFor="let customer of customers" [customer]="customer">
+        </app-card>
+    </div>
+</div>

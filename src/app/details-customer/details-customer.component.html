@@ -1,0 +1,24 @@
+<div *ngIf="customer" class="col-span-1 flex flex-col text-center border shadow rounded-md p-4 h-full">
+    <div class="relative flex  justify-end">
+        <button class="text-gray-500 hover:text-green-400 hover:text-xl p-1"  [routerLink]="['edit',customer?.id]" >
+           <i class="bi bi-pencil-square"></i> 
+        </button>|
+         
+        <button class="text-gray-500 hover:text-red-500 hover:text-xl p-1" (click)="delete()">
+         <i class="bi bi-trash-fill"></i>
+     </button>
+    </div>
+    
+    <img  *ngIf="customer?.gender=='Female'" class="mx-auto h-32 w-32 rounded" src="assets\wwwroot\female.png" alt="">
+    <img *ngIf="customer?.gender=='Male'"class="mx-auto h-32 w-32 rounded" src="assets\wwwroot\male.png" alt="">
+    <h3 class="text-sm font-semibold text-gray-900 mt-2">
+       {{customer?.firstName}}  {{customer?.lastName}}
+    </h3>    
+    <p class="text-sm text-gray-500 mt-2">Phone: {{customer?.phone}}</p>
+    <p class="text-sm text-gray-500 mt-2">Address: {{customer?.address}}</p>
+    <p class="text-sm text-gray-500 mt-2">email : {{customer?.email}}</p>
+    <p class="text-sm text-gray-500 mt-2">gender : {{customer?.gender}}</p>
+    <p class="text-sm text-gray-500 mt-2">Account : {{customer?.typeAccount}}</p>
+    <p class="text-sm text-gray-500 mt-2">Balance: {{customer?.balance}}</p>
+  
+</div>

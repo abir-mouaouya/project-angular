@@ -1,0 +1,24 @@
+<div class="col-span-1 flex flex-col text-center border shadow rounded-md p-4 h-full">
+    <div class="relative flex  justify-end">
+         <button class="text-gray-500 hover:text-blue-600  hover:text-xl  p-1" [routerLink]="['details',customer?.id]" >
+          <i class="bi bi-three-dots"></i>  
+        </button> |
+         <button class="text-gray-500 hover:text-green-400 hover:text-xl p-1"  [routerLink]="['edit',customer?.id]" >
+            <i class="bi bi-pencil-square"></i> 
+         </button>|
+         <button class="text-gray-500 hover:text-red-500 hover:text-xl p-1" (click)="deleteItem()">
+            <i class="bi bi-trash-fill"></i>
+        </button>
+    </div>
+    <img  *ngIf="customer?.gender=='Female'" class="mx-auto h-32 w-32 rounded" src="assets\wwwroot\female.png" alt="">
+    <img *ngIf="customer?.gender=='Male'"class="mx-auto h-32 w-32 rounded" src="assets\wwwroot\male.png" alt="">
+    <h3 class="text-sm font-semibold text-gray-900 mt-2">
+       {{customer?.firstName}}  {{customer?.lastName}}
+    </h3>
+    <span class="badge text-bg-primary" *ngIf="customer?.typeAccount === 'Savings Accounts' ">Savings Accounts</span>
+    <span class="badge text-bg-warning" *ngIf="customer?.typeAccount === 'Checking Accounts' ">Checking Accounts</span>
+    <span class="badge text-bg-info" *ngIf="customer?.typeAccount === 'Money Market Accounts' ">Money Market Accounts</span>
+    <span class="badge text-bg-success" *ngIf="customer?.typeAccount === 'Certificates of Deposit' ">Certificates of Deposit</span>
+    <p class="text-sm text-gray-600 ">Balance: {{customer?.balance}}</p>
+  
+</div>
