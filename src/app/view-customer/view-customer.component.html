@@ -9,7 +9,7 @@
     </div>
     <div class="flex flex-col gap-6 p-6 bottom-3 top-3">
     <div class="grid grid-cols-3 gap-7 md:grid-cols-4 xl:grid-cols-5">
-        <app-card  *ngFor="let customer of customers" [customer]="customer">
+        <app-card  *ngFor="let customer of customers" [customer]="customer" (delete)="delete($event)">
         </app-card>
     </div>
 </div>

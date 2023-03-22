@@ -12,17 +12,6 @@
       "balance": 40000
     },
     {
-      "id": "c25605e0-429a-4ac2-8304-56a1b9819e37",
-      "firstName": "Pooha",
-      "lastName": "Abir",
-      "address": "1 Ilene Road",
-      "gender": "Male",
-      "phone": "0606060606",
-      "email": "pmaliphant1@illinois.edu",
-      "typeAccount": "Certificates",
-      "balance": 800000
-    },
-    {
       "id": "ca32646f-e09e-462d-b1e5-76cd9eb16d87",
       "firstName": "zahra",
       "lastName": "Courteney",
@@ -194,36 +183,6 @@
       "balance": 40000
     },
     {
-      "id": "0baa41e1-cc21-4a8d-b85a-e4abbe96495e",
-      "firstName": "Gina",
-      "lastName": "Ireson",
-      "email": "giresonj@ask.com",
-      "gender": "Non-binary",
-      "address": "75 Sauthoff Court",
-      "typeAccount": " Savings Accounts ",
-      "balance": 40000
-    },
-    {
-      "id": "0c0d59ce-7b8b-4c62-b0b1-2caad8db91ca",
-      "firstName": "Diarmid",
-      "lastName": "O'Dee",
-      "email": "dodeek@bigcartel.com",
-      "gender": "Agender",
-      "address": "03 Old Shore Drive",
-      "typeAccount": "Money Market Accounts",
-      "balance": 10000
-    },
-    {
-      "id": "e7f038f6-2624-491d-ac8f-d743ad3ac097",
-      "firstName": "Aggie",
-      "lastName": "Alleyne",
-      "email": "aalleynel@cbsnews.com",
-      "gender": "Genderfluid",
-      "address": "4 Oneill Hill",
-      "typeAccount": "Savings Accounts",
-      "balance": 80000
-    },
-    {
       "id": "ed137d8d-87e0-4ed2-8d76-7ac58e16166f",
       "firstName": "Jock",
       "lastName": "Skilbeck",
@@ -304,72 +263,6 @@
       "balance": 30000
     },
     {
-      "id": "D_oXKNn",
-      "firstName": "",
-      "lastName": "Abir",
-      "address": "1 Ilene Road",
-      "gender": "",
-      "phone": "0606060606",
-      "email": "pmaliphant1@illinois.edu",
-      "typeAccount": "",
-      "balance": 0
-    },
-    {
-      "id": "kHpqyKe",
-      "firstName": "",
-      "lastName": "Abir",
-      "address": "1 Ilene Road",
-      "gender": "",
-      "phone": "0606060606",
-      "email": "pmaliphant1@illinois.edu",
-      "typeAccount": "",
-      "balance": 0
-    },
-    {
-      "id": "w-Oq5J_",
-      "firstName": "",
-      "lastName": "ahjdh",
-      "address": "ahadaf , azrou  ifrane",
-      "gender": "",
-      "phone": "908050604",
-      "email": "kjfkd@jffj.vk",
-      "typeAccount": "",
-      "balance": 1000
-    },
-    {
-      "id": "Ndm5uXO",
-      "firstName": "",
-      "lastName": "ahjdh",
-      "address": "ahadaf , azrou  ifrane",
-      "gender": "",
-      "phone": "908050604",
-      "email": "kjfkd@jffj.vk",
-      "typeAccount": "",
-      "balance": 1000
-    },
-    {
-      "id": "t9A2_2S",
-      "firstName": "",
-      "lastName": "ggggg",
-      "address": "37 Dapin Point",
-      "gender": "",
-      "phone": "000000000",
-      "email": "ccourteney2@nih.gov",
-      "typeAccount": "",
-      "balance": 0
-    },
-    {
-      "firstName": "aichaaaaaaaaaaaaa",
-      "lastName": "ggggg",
-      "address": "37 Dapin Point",
-      "gender": "",
-      "phone": "000000000",
-      "email": "ccourteney2@nih.gov",
-      "typeAccount": "",
-      "balance": 0,
-      "id": "F-Snrge"
-    },
-    {
       "firstName": "aichaaaaaaaaaaaaasssssss",
       "lastName": "ggggg",
       "address": "37 Dapin Point",
@@ -379,17 +272,6 @@
       "typeAccount": "",
       "balance": 0,
       "id": "T8BqELJ"
-    },
-    {
-      "id": "KJSlSYy",
-      "firstName": "aichaaaaaaaaaaaaasssssss",
-      "lastName": "gggggfjfjfj",
-      "address": "37 Dapin Point hhhhh",
-      "gender": "Female",
-      "phone": "000000000",
-      "email": "ccourteney2@nih.gov",
-      "typeAccount": "Money Market Accounts",
-      "balance": 0
     }
   ]
 }
